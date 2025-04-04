@@ -143,7 +143,6 @@ With FancyTube, you can have multiple showcases on your website, featuring diffe
 * CornerStone
 * Themify Builder etc.
 
-
 = Tips =
 
 The playlist is good for SEO, and it helps you to get specific visitors. You can create playlists with some categories. Here is a glimpse into the top categories on YouTube:
