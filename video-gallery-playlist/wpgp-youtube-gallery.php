@@ -16,7 +16,7 @@
  * Plugin Name:       FancyTube - Video Gallery & Slider for YouTube
  * Plugin URI:        https://pluginic.com/plugins/video-gallery-playlist/
  * Description:       This plugin shows gallery or slider form your YouTube channel or playlist.
- * Version:           2.4.1
+ * Version:           2.4.2
  * Author:            Pluginic
  * Author URI:        https://pluginic.com/
  * License:           GPL-2.0+

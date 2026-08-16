@@ -78,6 +78,7 @@ class WPGP_YouTube_Gallery_Public {
 		wp_register_style( $this->plugin_name . 'swiper', plugin_dir_url( __FILE__ ) . 'css/swiper.css', array(), $this->version, 'all' );
 		wp_register_style( $this->plugin_name . 'venobox', plugin_dir_url( __FILE__ ) . 'css/venobox.min.css', array(), $this->version, 'all' );
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/wpgp-youtube-gallery-public.css', array(), $this->version, 'all' );
+	    wp_enqueue_style( $this->plugin_name . '-features', plugin_dir_url( __FILE__ ) . 'css/wpgpyt-features.css', array(), filemtime( plugin_dir_path( __FILE__ ) . 'css/wpgpyt-features.css' ), 'all' );
 
 	}
 
@@ -105,7 +106,6 @@ class WPGP_YouTube_Gallery_Public {
 		wp_register_script( $this->plugin_name . 'nicescroll', plugin_dir_url( __FILE__ ) . 'js/jquery.nicescroll.min.js', array(), $this->version, false );
 		wp_register_script( $this->plugin_name . 'swiper', plugin_dir_url( __FILE__ ) . 'js/swiper.js', array(), $this->version, false );
 		wp_register_script( $this->plugin_name . 'venobox', plugin_dir_url( __FILE__ ) . 'js/venobox.min.js', array(), $this->version, false );
-
+		wp_enqueue_script( $this->plugin_name . '-features', plugin_dir_url( __FILE__ ) . 'js/wpgpyt-features.js', array(), filemtime( plugin_dir_path( __FILE__ ) . 'js/wpgpyt-features.js' ), true );
 	}
-
 }

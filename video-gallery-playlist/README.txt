@@ -2,8 +2,8 @@
 Contributors: wpqode, nazmulfeni4, frohadpro
 Tags: Video Gallery, youtube gallery, YouTube Slider, youtube playlist, youtube to gallery, 
 Requires at least: 4.6
-Tested up to: 6.7
-Stable tag: trunk
+Tested up to: 7.0
+Stable tag: 2.4.2
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -300,3 +300,10 @@ Fix : Escaping issues.
 * Fix: Fixed character encoding issues
 * Update: Updated plugin name to comply with trademark guidelines
 * Update: Updated readme to comply with WordPress.org guidelines
+
+= 2.4.2 =
+* New: Watch Later - Save videos to watch later with bookmark button (saved locally)
+* New: Video Search - Instantly filter videos by title
+* New: Sticky Player - Video stays visible in corner while scrolling
+* Improvement: Tested with WordPress 7.0
+* Improvement: Performance and compatibility enhancements
